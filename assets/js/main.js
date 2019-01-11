@@ -114,4 +114,10 @@
 
 			});
 
+	// slide down the page
+	$('#slideDown').click(function(){
+		var H = $('#two').offset().top;
+		$('body').animate({'scrollTop': H}, 800);
+	});
+
 })(jQuery);
